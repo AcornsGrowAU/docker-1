@@ -1,6 +1,6 @@
 {
   "logger": {
-    "level": "info",
+    "level": "debug",
     "timestamp": false
   },
   "esclient": {
@@ -38,16 +38,6 @@
     "geonames": {
       "datapath": "/data/geonames",
       "countryCode": "AU"
-    },
-    "openstreetmap": {
-      "download": [
-        { "sourceURL": "http://download.geofabrik.de/australia-oceania/australia-latest.osm.pbf" }
-      ],
-      "leveldbpath": "/tmp",
-      "datapath": "/data/openstreetmap",
-      "import": [{
-        "filename": "australia-latest.osm.pbf"
-      }]
     },
     "openaddresses": {
       "datapath": "/data/openaddresses",
